@@ -5,7 +5,7 @@ const hbs = require('hbs');
 const chalk = require('chalk');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 const publicFolderPath = path.join(__dirname, '../public');
 const viewsFolderPath = path.join(__dirname, '../views');
