@@ -1,0 +1,71 @@
+body {
+    position: relative;
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    height: 97vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    color: #999999;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+    width: 100%;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+header nav a{
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px 0 10px 0;
+}
+
+header nav a:hover{
+    color: #3f3f3f;
+    background-color: #eeeeee;
+}
+
+.home--main-image {
+    background-image: url('../images/random-paint-splatter.jpg');
+    width: 200px;
+    height: 400px;
+}
+
+.created-by {
+    float: left;
+}
+
+.coppyright {
+    float: right;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+button {
+    border: 1px solid #cccccc;
+    padding: 6px;
+    color: white;
+    background-color: slategrey;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: slategrey;
+    background-color: lightgrey;
+}
